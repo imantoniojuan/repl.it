@@ -5,23 +5,45 @@
       <meta name="viewport" content="width=device-width">
       <title>repl.it</title>
       <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,800;0,900;1,200;1,600;1,700&display=swap" rel="stylesheet">
+      <style>
+        body
+        {
+          font-family: 'Fraunces', monospace;
+          font-size: 20px;
+          
+        }
+        .bigheader
+        {
+          font-size: 40px;
+          background: #2EAB12;
+        }
+        .tinychicken
+        {
+          border: 1px solid #ddd;
+          padding-left: 100px;
+          width:50%;
+          text-align: center;
+        }
+      </style>
    </head>
    <body class="main-body">
-      <div class="container">
-        <div class="title">
-         <h2> Bio </h2>
-        </div>
+      <img class="tinychicken" src="./Chicken-Scratch.jpg"/>
+      <div class="container" id="first-section">
+         <div class="title">
+            <h2> Bio </h2>
+         </div>
          <div class="section">
             <div class="section-content">
-               <p> An 11 year old at Superscratch Secondary, my hobbies include caring for my 
-                  <b> pet gerbils,</b> volunteering at the 
-                  <b> Food Bank, </b> and learning more about 
-                  <b> food security in Singapore. </b>
+               <p> I am Anthony and this is my basic website. I teach at 
+                  <b> Saturday Kids</b> on  
+                  <i> weekends </i> and I enjoy eating different kinds of
+                  <b> Sushi. </b>
                </p>
-               <br>
-               <p> Aside from my interest in animal rights and social justice, I am currently learning to code using 
-                  <b> HTML and CSS </b> and teaching my baby brother how to 
-                  <b> recycle </b>!
+               <p> I coded this website using
+                  <b> HTML and CSS </b> and I want to have many more 
+                  <b> features </b>!
                </p>
             </div>
             <div class="section-image-right">
@@ -29,21 +51,34 @@
             </div>
          </div>
       </div>
-      <div class="container">
+      <div class="container" id="second-section">
          <div class="section">
-           <div class="section-image-left">
+            <div class="title">
+               <h2 class="bigheader"> Links </h2>
+            </div>
+            <div class="section-image-left">
                <img class="section-image-img" src="https://coddyschool.com/upload/iblock/a45/scratch_min.png" alt="scratch">
             </div>
             <div class="section-content">
                <p>
-                  <b> Check out these wiki pages I wrote for Module 1: Brilliant Breakthroughs, Insane Inventions, and the World Wide Web.</b>
+                  <b> Check out these cool videos I found on the web</b>
                </p>
                <ul>
-                  <li><a href="https://fortniteintel.com/wp-content/uploads/2019/03/Fortnite_Battle-pass_Season-7_season7_plane-2024x1139-a974df2b274a4254b43387ef34ab40c1b42250a9.jpg"> The Airplane </a></li>
-                  <li> <a href="https://www.youtube.com/watch?v=3DIYMjIQNsM">Air Conditioning</a> </li>
+                  <li>
+                     <a href="https://www.youtube.com/watch?v=3zOc361ViOw"> Fornite Movie Trailer </a>
+                  </li>
+                  <li> 
+                     <a href="https://www.youtube.com/watch?v=1ZM6ztUlLWY">Roblox Movie</a>
+                  </li>
                </ul>
             </div>
          </div>
+      </div>
+      <div class="container" id="third-section">
+         <div class="title">
+            <h2> Videos </h2>
+         </div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/0SZJcJXDzkI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
    </body>
 </html>
